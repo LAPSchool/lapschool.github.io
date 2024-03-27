@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<com.mx.live.user.AudienceLayerEffectLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layerEffect" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/view_comment" app:layout_constraintTop_toTopOf="parent" />

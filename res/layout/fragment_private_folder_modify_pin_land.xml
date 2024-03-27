@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<ViewFlipper android:id="@id/view_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content">
-		<include android:id="@id/include_modify_pin_0" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/private_folder_vs_modify_pin_land" />
-		<include android:id="@id/include_modify_pin_1" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/private_folder_vs_modify_pin_land" />
-		<include android:id="@id/include_modify_pin_2" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/private_folder_vs_modify_pin_land" />
-		<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/private_folder_vs_success_land" />
-	</ViewFlipper>
-</LinearLayout>

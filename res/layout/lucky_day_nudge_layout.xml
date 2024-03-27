@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingBottom="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<FrameLayout android:background="@drawable/bg_ad_free_toast" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp8" android:layout_marginEnd="@dimen/dp8">
-		<TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp16" android:text="@string/it_s_your_lucky_day_proceeding_without_ads" android:lineSpacingExtra="5.0sp" android:fontFamily="@font/font_muli" />
-	</FrameLayout>
-</FrameLayout>

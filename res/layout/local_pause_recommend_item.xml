@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:focusable="true" android:clickable="true" android:layout_width="@dimen/local_pause_rec_item_land_width" android:layout_height="@dimen/local_pause_rec_item_land_height" android:foreground="?selectableItemBackground" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="@dimen/dp3" app:cardElevation="@dimen/dp2">
-	<ImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-</androidx.cardview.widget.CardView>

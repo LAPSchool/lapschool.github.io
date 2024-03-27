@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/cover_image_container" android:layout_width="@dimen/big_mx_original_item_img_width" android:layout_height="@dimen/big_mx_original_item_img_height" android:layout_marginBottom="@dimen/card_view_margin_Bottom" android:foreground="?selectableItemBackground" app:cardBackgroundColor="@color/gold_shimmer_background_color" app:cardCornerRadius="@dimen/card_view_radius_slide" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
-	<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/gold_shimmer_background_color" android:scaleType="centerCrop" />
-	<ViewStub android:id="@id/vs_auto_play_view" android:layout="@layout/include_auto_play_view" android:inflatedId="@id/auto_play_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	<include layout="@layout/tv_autoplay_title_watchlist" />
-	<include layout="@layout/view_watch_count_small" />
-</androidx.cardview.widget.CardView>

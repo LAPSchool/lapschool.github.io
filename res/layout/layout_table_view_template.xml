@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:background="?expandable_ad_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/e_expanded_state_top_bar" />
-	<androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-	<Button android:textSize="14.0sp" android:textColor="?expandable_uni_cta_color" android:gravity="center" android:id="@id/native_ad_action_button" android:background="?survey_submit_enable_bg" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="16.0dip" android:minHeight="42.0dip" android:lines="1" android:textAllCaps="true" android:fontFamily="?exo_font_extra_bold" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:elevation="4.0dip" />
-</LinearLayout>

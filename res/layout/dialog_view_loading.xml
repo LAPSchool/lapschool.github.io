@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/loading_background" android:padding="@dimen/dp12" android:layout_width="@dimen/dp120" android:layout_height="@dimen/dp90">
-		<ProgressBar android:id="@id/progress_bar" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" style="@style/LoadingStyle" />
-		<TextView android:textSize="@dimen/sp12" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/loading_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:text="@string/loading" android:maxLines="1" android:fontFamily="@font/font_semibold" android:letterSpacing="-0.01" />
-	</LinearLayout>
-</FrameLayout>

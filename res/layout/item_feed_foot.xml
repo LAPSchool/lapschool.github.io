@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/dp20" android:paddingRight="@dimen/dp20" android:layout_width="fill_parent" android:layout_height="@dimen/dp48">
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp10" android:textColor="@color/mxskin__loadingg_more_foot__light" android:gravity="center" android:id="@id/text_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_centerInParent="true" android:fontFamily="@font/muli_regular" app:mxSkin="textColor" style="?mxOnlineSearchTitle" />
-	<ProgressBar android:id="@id/progress_loading" android:layout_width="@dimen/dp15" android:layout_height="@dimen/dp15" android:layout_marginRight="@dimen/dp6" android:layout_toLeftOf="@id/text_loading" android:layout_centerInParent="true" android:layout_centerVertical="true" />
-</RelativeLayout>

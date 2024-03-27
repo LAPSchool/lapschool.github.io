@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?actionBarItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<ImageView android:id="@id/iv_more_icon" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:src="@drawable/ic_chat_white_24dp_new" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-	<ImageView android:id="@id/iv_more_red_badge" android:visibility="gone" android:layout_width="@dimen/dp8" android:layout_height="@dimen/dp8" android:src="@drawable/red_badge" android:layout_alignParentRight="true" app:layout_constraintEnd_toEndOf="@id/iv_more_icon" app:layout_constraintTop_toTopOf="@id/iv_more_icon" />
-</androidx.constraintlayout.widget.ConstraintLayout>

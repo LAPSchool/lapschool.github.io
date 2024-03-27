@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/profile_uid" android:layout_width="wrap_content" android:layout_height="wrap_content">
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dp10" android:textStyle="normal" android:textColor="@color/mxskin__profile_uid_text__dark" android:gravity="center_vertical" android:id="@id/tv_uid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UID:" android:fontFamily="@font/muli_regular" />
-	<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_copy" android:layout_width="@dimen/dp16" android:layout_height="@dimen/dp16" android:layout_marginLeft="@dimen/dp2" android:src="@drawable/mxskin__ic_uid_copy__dark" />
-</LinearLayout>

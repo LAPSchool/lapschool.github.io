@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<com.mxtech.videoplayer.ad.online.features.search.view.AutoHideKeyboardScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12">
-		<androidx.recyclerview.widget.RecyclerView android:id="@id/browse_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-		<FrameLayout android:id="@id/fl_search_hot_words_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-	</LinearLayout>
-</com.mxtech.videoplayer.ad.online.features.search.view.AutoHideKeyboardScrollView>

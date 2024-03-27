@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/dp4" app:cardElevation="@dimen/dp2" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="true">
-	<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_blue_btn" android:paddingTop="@dimen/dp10" android:paddingBottom="@dimen/dp10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16">
-		<ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:src="@drawable/ic_play_white" />
-		<TextView android:textSize="@dimen/sp14" android:textColor="@color/mxskin__mx_original_item_color__light" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/play_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp4" android:singleLine="true" />
-	</LinearLayout>
-</androidx.cardview.widget.CardView>

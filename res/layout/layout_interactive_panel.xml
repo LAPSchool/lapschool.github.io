@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@id/landscape_panel_layout" android:background="@drawable/player_panel_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<LinearLayout android:orientation="vertical" android:id="@id/landscape_left_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-	<LinearLayout android:orientation="horizontal" android:id="@id/landscape_right_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
-		<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/first_rv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-		<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/second_rv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-	</LinearLayout>
-</LinearLayout>

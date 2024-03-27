@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/ll_search_hot_words" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp27">
-	<include android:layout_width="wrap_content" android:layout_height="@dimen/search_list_item_height" android:layout_marginLeft="@dimen/dp16" android:layout_marginTop="@dimen/dp16" android:layout_marginRight="@dimen/dp16" layout="@layout/trending_search_title" />
-	<androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/hot_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12" />
-</LinearLayout>

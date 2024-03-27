@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<com.mxtech.videoplayer.ad.view.AbstractFlowBaseFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<include android:layout_gravity="center_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/refresh_popup" />
-	<include android:id="@id/retry_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/retry_layout_no_data" />
-</com.mxtech.videoplayer.ad.view.AbstractFlowBaseFrameLayout>

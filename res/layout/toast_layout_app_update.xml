@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp8" app:cardCornerRadius="@dimen/dp4" app:cardElevation="0.0dip">
-		<TextView android:textSize="@dimen/sp13" android:textStyle="normal" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bottom_toast_text" android:background="#ff323232" android:paddingLeft="@dimen/dp16" android:paddingTop="@dimen/dp14" android:paddingRight="@dimen/dp16" android:paddingBottom="@dimen/dp14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="@dimen/sp6" android:fontFamily="@font/font_muli" style="@style/roboto_regular" />
-	</androidx.cardview.widget.CardView>
-</FrameLayout>

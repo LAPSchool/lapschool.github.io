@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/cover_image_container" android:layout_width="fill_parent" android:layout_height="@dimen/sony_live_card_height" android:layout_marginBottom="@dimen/dp1" android:foreground="?selectableItemBackground" app:cardBackgroundColor="?android:windowBackground" app:cardCornerRadius="@dimen/dp4" app:cardElevation="@dimen/dp1">
-	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="@dimen/sony_live_card_item_height" android:scaleType="centerCrop" />
-		<TextView android:textSize="@dimen/sp10" android:textColor="@color/mxskin__sony_live_item_time_color__light" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
-	</LinearLayout>
-</androidx.cardview.widget.CardView>

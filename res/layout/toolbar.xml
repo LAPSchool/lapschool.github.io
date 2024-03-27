@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="?actionBarTheme" android:id="@id/toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" app:popupTheme="?actionBarPopupTheme" style="?actionBarStyle">
-	<TextView android:textSize="18.0sp" android:textStyle="normal" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="@font/font_muli_bold" />
-</androidx.appcompat.widget.Toolbar>

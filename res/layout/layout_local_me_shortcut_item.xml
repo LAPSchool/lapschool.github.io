@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="@dimen/dp90" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless">
-	<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/icon" android:layout_width="@dimen/dp28" android:layout_height="@dimen/dp28" android:tint="@color/_3c8cf0" />
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textStyle="normal" android:textColor="@color/mxskin__505a78_dadde4__light" android:gravity="center_horizontal" android:id="@id/name" android:paddingLeft="@dimen/dp2" android:paddingRight="@dimen/dp2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:maxLines="2" android:fontFamily="@font/font_muli" app:mxSkin="textColor" />
-</androidx.appcompat.widget.LinearLayoutCompat>

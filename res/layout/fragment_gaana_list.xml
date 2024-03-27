@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<com.mxtech.widget.FastScrollSwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never" />
-	</com.mxtech.widget.FastScrollSwipeRefreshLayout>
-	<com.mxtech.videoplayer.fastscroll.FastScroller android:orientation="vertical" android:id="@id/fastscroll" android:visibility="invisible" android:layout_width="@dimen/fastscroll__handle_clickable_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

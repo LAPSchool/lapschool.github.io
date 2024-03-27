@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="#b34e2b05" app:cardCornerRadius="@dimen/dp15">
-	<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:paddingLeft="@dimen/dp8" android:paddingTop="@dimen/dp5" android:paddingRight="@dimen/dp8" android:paddingBottom="@dimen/dp5" android:layout_width="wrap_content" android:layout_height="wrap_content">
-		<TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffd376" android:gravity="center_horizontal" android:layout_width="115.0dip" android:layout_height="14.0dip" android:text="@string/don_t_want_ads_get" android:fontFamily="@font/font_muli" android:layout_marginEnd="@dimen/dp2" />
-		<ImageView android:id="@id/svod_pack_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-		<TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="#ffffd376" android:gravity="center_horizontal" android:layout_width="13.0dip" android:layout_height="14.0dip" android:text=">>" android:fontFamily="@font/font_muli" android:layout_marginStart="@dimen/dp2" />
-	</androidx.appcompat.widget.LinearLayoutCompat>
-</androidx.cardview.widget.CardView>

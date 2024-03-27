@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
-	<include layout="@layout/include_x4_item_img" />
-	<LinearLayout android:orientation="vertical" android:layout_width="@dimen/card_item_slide_publisher_icon_size" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp60" android:elevation="@dimen/dp3">
-		<TextView android:textSize="@dimen/sp10" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/playing_text" android:background="@drawable/live_playing_bg" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp19" android:text="@string/live_text" />
-	</LinearLayout>
-</FrameLayout>

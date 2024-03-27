@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/color_f5f7fa" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<com.mx.buzzify.list.MxRecyclerView android:orientation="vertical" android:id="@id/list_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:loadMoreEnable="true" app:refreshEnable="true" />
-	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-	<TextView android:textColor="@color/color_96a2ba" android:gravity="center" android:layout_gravity="center" android:id="@id/zrp_view" android:background="@color/color_f5f7fa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/trans_history_no_data_title" android:fontFamily="@font/muli_regular" android:layout_marginStart="@dimen/dp20" android:layout_marginEnd="@dimen/dp20" />
-	<include android:id="@id/retry_no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/retry_layout_no_data" />
-	<androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="10.0dip" style="?android:progressBarStyle" />
-</FrameLayout>

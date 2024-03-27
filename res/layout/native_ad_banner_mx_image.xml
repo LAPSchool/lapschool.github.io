@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/native_image_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-		<androidx.cardview.widget.CardView android:id="@id/native_image_view_card" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="5.0dip" app:cardElevation="3.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
-			<com.makeramen.roundedimageview.RoundedImageView android:layout_gravity="center" android:id="@id/native_ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:minHeight="@dimen/ad_media_view_min_height_size" app:riv_corner_radius="5.0dip" />
-			<ImageView android:layout_gravity="end" android:id="@id/ad_tag_view" android:layout_width="@dimen/ad_tag_height" android:layout_height="@dimen/ad_tag_width" android:layout_marginTop="@dimen/dp4" android:src="@drawable/ic_ad_tag" android:layout_marginEnd="@dimen/dp4" />
-		</androidx.cardview.widget.CardView>
-	</androidx.constraintlayout.widget.ConstraintLayout>
-</RelativeLayout>

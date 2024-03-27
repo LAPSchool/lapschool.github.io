@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/dp4" android:paddingRight="@dimen/dp4" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<com.mx.live.tab.widget.PullRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp6">
-		<com.mx.buzzify.list.MxRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recycler_view" android:clipChildren="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" app:loadMoreEnable="true" app:noMoreViewEnable="false" app:refreshEnable="false" app:showLoading="true" />
-	</com.mx.live.tab.widget.PullRefreshLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

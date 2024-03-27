@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp8_un_sw">
-	<com.mxtech.videoplayer.ad.online.features.language.LangLayout android:id="@id/langLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

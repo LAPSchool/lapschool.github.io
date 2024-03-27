@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="@dimen/dp58" android:layout_height="wrap_content">
-	<FrameLayout android:background="@drawable/bg_local_tile" android:layout_width="fill_parent" android:layout_height="@dimen/dp32" android:layout_marginLeft="@dimen/dp6" android:layout_marginRight="@dimen/dp6" android:backgroundTint="@color/mxskin__1996a2ba_1985929c__light" app:mxSkin="backgroundTint">
-		<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iv_tile" android:layout_width="@dimen/dp18" android:layout_height="@dimen/dp18" />
-		<View android:layout_gravity="end|bottom|center" android:id="@id/recently_use_view" android:background="@drawable/icon_tile_recently_use" android:visibility="gone" android:layout_width="@dimen/dp12" android:layout_height="@dimen/dp12" />
-	</FrameLayout>
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp9" android:textStyle="normal" android:textColor="@color/mxskin__505a78_dadde4__light" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_tile" android:paddingLeft="@dimen/dp1" android:paddingRight="@dimen/dp1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:maxLines="1" app:fontFamily="@font/font_muli" app:mxSkin="textColor" />
-</androidx.appcompat.widget.LinearLayoutCompat>

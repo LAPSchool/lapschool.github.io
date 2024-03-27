@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/image_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
-	<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/card_view_radius_mutil" app:cardElevation="0.0dip">
-		<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/thumbnail" android:background="@color/transparent" android:layout_width="@dimen/dp28" android:layout_height="@dimen/dp28" android:scaleType="centerCrop" />
-	</androidx.cardview.widget.CardView>
-</LinearLayout>

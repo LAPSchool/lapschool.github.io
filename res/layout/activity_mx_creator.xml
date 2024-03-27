@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/web_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="@dimen/app_bar_height_56_un_sw">
-		<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" style="?mxToolbar" />
-		<View android:layout_gravity="bottom" android:background="#ffd4d4d4" android:layout_width="fill_parent" android:layout_height="@dimen/app_bar_gray_bg_height_un_sw" />
-	</com.google.android.material.appbar.AppBarLayout>
-	<WebView android:id="@id/creator_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/app_bar_height_56_un_sw" />
-</FrameLayout>

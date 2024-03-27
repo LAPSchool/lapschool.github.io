@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<com.mxtech.videoplayer.widget.ShortcutPlaceHolderFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dp40" android:layout_marginTop="@dimen/dp8">
-	<View android:layout_gravity="center" android:id="@id/screen_shortcut_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	<View android:layout_gravity="center|right|top" android:id="@id/screen_shortcut_show_as_new" android:background="@drawable/red_point" android:visibility="gone" android:layout_width="@dimen/dp10_un_sw" android:layout_height="@dimen/dp10_un_sw" />
-	<ImageView android:layout_gravity="center" android:id="@id/screen_shortcut_img" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" />
-</com.mxtech.videoplayer.widget.ShortcutPlaceHolderFrameLayout>

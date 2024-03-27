@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:focusable="true" android:clickable="true" android:layout_width="@dimen/local_pause_rec_item_land_width" android:layout_height="@dimen/local_pause_rec_item_land_height" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/dp3" app:cardElevation="@dimen/dp2" />

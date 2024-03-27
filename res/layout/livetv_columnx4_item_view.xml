@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<include layout="@layout/include_x4_item_img" />
-	<TextView android:textSize="@dimen/dp14" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp6" android:lines="2" style="?mxOnlineTextTitleRegular" />
-</LinearLayout>

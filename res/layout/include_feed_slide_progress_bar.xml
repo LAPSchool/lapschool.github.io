@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="@dimen/video_progress_height" android:progressDrawable="@drawable/history_progress_bar" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />

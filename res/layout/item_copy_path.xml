@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dp40">
-	<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_arrow" android:layout_width="@dimen/dp16" android:layout_height="@dimen/dp16" android:layout_marginRight="@dimen/dp2" android:src="@drawable/mxskin__share_right_arrow__light" app:mxSkin="tint" app:tint="@color/mxskin__choose_folder_path_bottom_btn_disenable__light" />
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textStyle="normal" android:textColor="#ff505a78" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp2" android:lineSpacingExtra="2.0sp" android:fontFamily="@font/font_muli" android:letterSpacing="-0.02" />
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@id/choose_file_empty_ll" android:background="@drawable/mxskin__choose_file_empty__light" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mxSkin="background">
-	<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_empty" android:layout_width="@dimen/dp84" android:layout_height="@dimen/dp84" android:src="@drawable/ic_no_media_files" />
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textStyle="normal" android:textColor="@color/mxskin__choose_file_empty_tip__light" android:gravity="center_horizontal" android:id="@id/empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp23" android:text="@string/no_songs_found" android:fontFamily="@font/font_muli_semibold" app:mxSkin="textColor" />
-</LinearLayout>

@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/iv_indicator_item" android:background="@drawable/mxskin__selector_super_downloader_indicator_color__light" android:layout_width="@dimen/dp8" android:layout_height="@dimen/dp8" android:layout_marginStart="@dimen/dp4" android:layout_marginEnd="@dimen/dp4" app:mxSkin="background" app:shapeAppearance="@style/CircleImageViewStyle" />

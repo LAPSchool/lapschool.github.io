@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<View android:id="@id/footerBg" android:background="@drawable/mxskin__personalised_fragment_bg__light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp100" app:mxSkin="background" />
-	<include layout="@layout/fragment_ol_abstract_flow" />
-	<include layout="@layout/retry_layout_large" />
-	<com.mxtech.videoplaylist.view.BackToTopView android:layout_gravity="bottom|center|right" android:id="@id/back_to_top" android:visibility="gone" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" android:layout_marginBottom="@dimen/dp96" android:src="@drawable/ic_back_to_top_side" />
-	<FrameLayout android:id="@id/assist_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</merge>

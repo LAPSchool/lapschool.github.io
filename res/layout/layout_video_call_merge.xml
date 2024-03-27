@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<ViewStub android:id="@id/vs_main_anchor_one_to_multi" android:layout="@layout/item_video_call_main_anchor_cloud_view" android:inflatedId="@id/vs_main_anchor_one_to_multi" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	<ViewStub android:id="@id/vs_one_to_one" android:layout="@layout/layout_video_call_one_to_one" android:inflatedId="@id/vs_one_to_one" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	<ViewStub android:id="@id/vs_pk" android:layout="@layout/layout_video_call_pk" android:inflatedId="@id/vs_pk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	<ViewStub android:id="@id/vs_one_to_multi" android:layout="@layout/layout_video_call_one_to_multi" android:inflatedId="@id/vs_one_to_multi" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</merge>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@drawable/mxskin__exo_checklayout_bg_selector__light" android:layout_width="fill_parent" android:layout_height="48.0dip" app:mxSkin="background">
-	<ImageView android:layout_gravity="center_vertical" android:id="@id/exo_check_box" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="10.0dip" />
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/mxskin__play_dialog_text_color__light" android:layout_gravity="center_vertical" android:id="@id/exo_check_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" app:mxSkin="textColor" />
-	<View android:layout_gravity="center_vertical" android:id="@id/exo_behind_point" android:background="@drawable/exo_circle_bg" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="2.0dip" android:layout_margin="4.0dip" />
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/mxskin__play_dialog_text_color__light" android:layout_gravity="center_vertical" android:id="@id/exo_behind_check_text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:mxSkin="textColor" />
-</LinearLayout>

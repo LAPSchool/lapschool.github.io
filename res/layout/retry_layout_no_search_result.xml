@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@id/retry_no_data" android:layout_width="fill_parent" android:layout_height="@dimen/dp220">
-	<com.mxtech.videoplayer.ad.view.imageview.AutoRotateView android:layout_gravity="center" android:id="@id/progressWheel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_loading" />
-	<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/retry_no_data_iv" android:layout_width="@dimen/dp160" android:layout_height="@dimen/dp160" android:src="@drawable/mxskin__ic_search_error__light" app:mxSkin="src" />
-	<TextView android:textSize="@dimen/sp14" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/retry_no_data_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp5" android:layout_marginTop="@dimen/dp6" android:layout_marginRight="@dimen/dp5" android:text="@string/no_search_result_found" style="?mxOnlineTextSubtitle" />
-</LinearLayout>

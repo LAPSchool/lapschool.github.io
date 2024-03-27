@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<com.mxtech.widget.MXImmersiveToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStart="0.0dip" app:layout_constraintTop_toTopOf="parent" app:mxBackground="@drawable/mxskin__theme_toolbar_bg__light" app:mxOverFlowTintColor="@color/mxskin__aurora_color_primary__light">
-		<TextView android:textSize="@dimen/sp18" android:textStyle="normal" android:textColor="@color/mxskin__theme_toolbar_primary_color__light" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/downloader_tab_title" android:maxLines="1" android:fontFamily="@font/font_muli_bold" app:mxSkin="textColor" />
-	</com.mxtech.widget.MXImmersiveToolbar>
-	<View android:id="@id/v_divider" android:background="@color/mxskin__download_divider__light" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="@id/toolbar" app:layout_constraintStart_toStartOf="parent" app:mxSkin="background" />
-	<androidx.fragment.app.FragmentContainerView android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
-</androidx.constraintlayout.widget.ConstraintLayout>

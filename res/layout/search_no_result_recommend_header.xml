@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp160" android:layout_height="@dimen/dp160" android:layout_marginTop="@dimen/dp32" android:src="@drawable/mxskin__ic_search_error__light" app:mxSkin="src" />
-	<TextView android:textSize="@dimen/sp16" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:text="@string/oops" style="?mxOnlineTextTitle" />
-	<TextView android:textSize="@dimen/sp14" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp6" android:layout_marginBottom="@dimen/dp30" android:text="@string/no_search_result_found" android:lineSpacingExtra="@dimen/sp6" style="?mxOnlineTextSubtitle" />
-</LinearLayout>

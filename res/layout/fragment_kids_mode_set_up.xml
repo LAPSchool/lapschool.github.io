@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/view_switcher" android:background="@color/mxskin__kids_mode_setup_age__light" android:layout_width="fill_parent" android:layout_height="wrap_content" app:mxSkin="background">
-	<include android:id="@id/include_pin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp62" layout="@layout/kids_mode_vs_set_up_pin" />
-	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp62">
-		<include android:id="@id/include_email" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/kids_mode_vs_set_up_email" />
-		<include android:id="@id/include_verify" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/kids_mode_vs_verify_email_code" />
-	</FrameLayout>
-</ViewSwitcher>

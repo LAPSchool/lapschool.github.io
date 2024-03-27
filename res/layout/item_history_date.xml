@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textStyle="normal" android:textColor="@color/mxskin__35344c_dadde4__light" android:gravity="start|center" android:id="@id/tv_date" android:paddingLeft="@dimen/dp16" android:paddingRight="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="@dimen/dp36" android:maxLines="1" app:fontFamily="@font/font_muli" app:mxSkin="textColor" />
-</FrameLayout>

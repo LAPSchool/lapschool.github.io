@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<com.mxplay.interactivemedia.internal.core.companion.nativeCompanion.view.TableItemWrapperLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-		<com.makeramen.roundedimageview.RoundedImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" app:riv_corner_radius="4.0dip" />
-		<TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?survey_title_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="sans-serif-medium" />
-		<TextView android:textSize="12.0sp" android:textColor="?expandable_ad_item_subtitle_color" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="sans-serif" />
-		<Button android:textSize="12.0sp" android:textColor="?survey_input_dialog_cta_color" android:id="@id/cta_button" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="30.0dip" android:textAllCaps="true" android:fontFamily="?mx_font_bold" android:paddingStart="0.0dip" android:letterSpacing="-0.01" style="?borderlessButtonStyle" />
-	</LinearLayout>
-</com.mxplay.interactivemedia.internal.core.companion.nativeCompanion.view.TableItemWrapperLayout>

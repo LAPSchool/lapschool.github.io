@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/music_bottom_layout" layout="@layout/activity_online_flow_entrace" />
-	<include android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/gaana_music_bar" />
-</RelativeLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<com.google.android.material.imageview.ShapeableImageView android:id="@id/top_guardian_avatar" android:padding="@dimen/dp12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_guardian_seat_none" app:layout_constraintBottom_toBottomOf="@id/top_guardian_bg" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="@id/top_guardian_bg" app:layout_constraintStart_toStartOf="@id/top_guardian_bg" app:layout_constraintTop_toTopOf="@id/top_guardian_bg" app:shapeAppearance="@style/circleImageStyle" />
-	<androidx.appcompat.widget.AppCompatImageView android:id="@id/top_guardian_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_guardian_decorate" android:scaleType="centerInside" />
-</merge>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/recycler_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	<com.mxtech.videoplaylist.view.BackToTopView android:layout_gravity="end|bottom|center" android:id="@id/back_to_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp96" android:src="@drawable/ic_back_to_top_side" />
-</FrameLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="?mxPlayListPadding" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp16" android:textStyle="normal" android:textColor="@color/mxskin__search_drawable_color__light" android:gravity="center_horizontal" android:id="@id/tv_empty" android:paddingTop="@dimen/dp250" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_playlist_found" android:fontFamily="@font/font_muli_semibold" app:mxSkin="textColor" />
-</RelativeLayout>

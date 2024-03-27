@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/root_view" android:background="@drawable/mxskin__native_ad_media_list_320x250_bg__light" android:paddingRight="0.0dip" android:paddingBottom="3.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/ott_portrait_small_width" android:layout_height="@dimen/ott_portrait_small_height" app:mxSkin="background">
-	<androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guidelineLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
-	<androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guidelineTop" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
-	<androidx.cardview.widget.CardView android:id="@id/native_ad_image_container" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:minHeight="@dimen/ad_media_view_min_height_size" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:layout_constraintDimensionRatio="H,104:156" app:layout_constraintLeft_toLeftOf="@id/guidelineLeft" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/guidelineTop">
-		<ImageView android:id="@id/native_ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-	</androidx.cardview.widget.CardView>
-</androidx.constraintlayout.widget.ConstraintLayout>

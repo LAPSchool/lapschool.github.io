@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<TextView android:textSize="@dimen/sp13" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/bottom_toast_text" android:background="@drawable/bg_ad_free_toast" android:padding="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp8" android:text="@string/ad_free_checked_toast" android:lineSpacingExtra="@dimen/sp6" android:fontFamily="@font/font_muli" />
-</FrameLayout>

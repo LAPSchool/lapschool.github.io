@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingBottom="@dimen/dp10" android:layout_width="wrap_content" android:layout_height="wrap_content">
-	<androidx.cardview.widget.CardView android:layout_width="@dimen/dp64" android:layout_height="@dimen/dp64" android:layout_marginTop="@dimen/dp10" android:layout_marginRight="@dimen/dp10" app:cardCornerRadius="@dimen/dp4" app:cardElevation="0.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
-		<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_upload_photos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
-	</androidx.cardview.widget.CardView>
-	<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_upload_photos_close" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20" android:src="@drawable/ic_report_photo_delete" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

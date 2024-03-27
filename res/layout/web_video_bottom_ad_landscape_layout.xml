@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/adParentLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
-	<FrameLayout android:id="@id/bottomBanner" android:layout_width="350.0dip" android:layout_height="50.0dip" />
-	<ImageView android:layout_gravity="center_vertical" android:id="@id/native_ad_close_button" android:background="@null" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ad_button_close" android:layout_marginStart="12.0dip" />
-</LinearLayout>

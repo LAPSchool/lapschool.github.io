@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/locked_container" android:paddingTop="@dimen/dp4" android:paddingBottom="@dimen/dp4" android:layout_width="fill_parent" android:layout_height="fill_parent">
-	<androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/landscape_bottom_layout_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/dp54" />
-	<ImageButton android:id="@id/iv_locked" android:background="?android:selectableItemBackground" android:focusable="false" android:layout_width="@dimen/dp44" android:layout_height="@dimen/dp44" android:src="@drawable/ic_lock_close_white" android:scaleType="center" android:layout_marginStart="@dimen/dp10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ExoMediaButton" />
-</androidx.constraintlayout.widget.ConstraintLayout>
