@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/local_subscribe_entry_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/iv_local_subscribe_entry" android:paddingLeft="@dimen/dp4" android:paddingRight="@dimen/dp4" android:saveEnabled="false" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp42" android:scaleType="centerCrop" />
+</FrameLayout>

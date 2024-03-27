@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<androidx.appcompat.widget.Toolbar android:layout_width="fill_parent" android:layout_height="@dimen/app_bar_height_50_un_sw" app:contentInsetEnd="@dimen/dp13" app:contentInsetStart="@dimen/dp4">
+		<ImageView android:id="@id/navigation_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_me_tab_toolbar_back" android:layout_marginEnd="@dimen/dp10" app:mxSkin="tint" app:tint="@color/mxskin__theme_toolbar_primary_color__light" />
+		<TextView android:textSize="@dimen/sp18" android:textStyle="normal" android:textColor="@color/mxskin__theme_toolbar_primary_color__light" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:fontFamily="@font/font_muli_semibold" app:mxSkin="textColor" />
+		<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="end" android:id="@id/inbox_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:id="@id/go_to_inbox" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_me_tab_notification" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="tint" app:tint="@color/mxskin__theme_toolbar_primary_color__light" />
+			<ImageView android:layout_gravity="end" android:id="@id/inbox_centre_unread" android:visibility="visible" android:layout_width="@dimen/dp6" android:layout_height="@dimen/dp6" android:src="@drawable/shape_inbox_centre_unread_message" android:elevation="0.00999999dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<View android:id="@id/toolbar_divider" android:background="@color/mxskin__upcoming_divider_line__light" android:layout_width="fill_parent" android:layout_height="1.0dip" app:mxSkin="background" />
+</LinearLayout>

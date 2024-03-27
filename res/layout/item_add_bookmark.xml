@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:id="@id/layout_add" android:background="@drawable/bg_blue_border_2dp" android:layout_width="fill_parent" android:layout_height="@dimen/dp36" android:layout_marginTop="@dimen/dp16" android:layout_marginBottom="@dimen/dp24" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16">
+	<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_add" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20" android:src="@drawable/mxskin__ic_add_bookmark_dark_gray__light" android:tint="@color/tag_blue" />
+	<androidx.appcompat.widget.AppCompatTextView android:textColor="@color/tag_blue" android:id="@id/tv_add_bookmark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_bookmark" android:fontFamily="@font/font_muli_semibold" android:layout_marginStart="@dimen/dp4" />
+</LinearLayout>

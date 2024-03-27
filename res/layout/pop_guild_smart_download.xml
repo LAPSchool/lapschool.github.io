@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dp60">
+	<com.mxtech.videoplayer.widget.bubble.BubbleLayout android:id="@id/bubbleLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dp60" android:layout_marginStart="@dimen/dp8" android:layout_marginEnd="@dimen/dp4" app:bubbleColor="?mxGuildYoutubeBg" app:bubblePadding="@dimen/dp4" app:bubbleRadius="@dimen/dp5" app:lookAt="top" app:lookLength="@dimen/dp12" app:lookPosition="@dimen/dp80" app:lookPositionReverse="false" app:lookWidth="@dimen/dp24" app:shadowLayerColor="#30000000">
+		<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@color/mxskin__high_light_youtube_content__light" android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_download_introduction" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" app:mxSkin="textColor" />
+	</com.mxtech.videoplayer.widget.bubble.BubbleLayout>
+</FrameLayout>

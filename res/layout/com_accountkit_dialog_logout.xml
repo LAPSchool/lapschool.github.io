@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?com_accountkit_background_color" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TextView android:textSize="20.0sp" android:textColor="?com_accountkit_primary_text_color" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="@string/com_accountkit_logout_title" />
+	<TextView android:textSize="16.0sp" android:textColor="?com_accountkit_secondary_text_color" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="15.0dip" android:text="@string/com_accountkit_logout_msg" />
+	<LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/comment_top" android:layout_width="fill_parent" android:layout_height="52.0dip">
+		<TextView android:textSize="14.0sp" android:textColor="?com_accountkit_gray_text_color" android:gravity="center" android:id="@id/cancel" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@android:string/cancel" />
+		<TextView android:textSize="14.0sp" android:textColor="?com_accountkit_primary_color" android:gravity="center" android:id="@id/confirm" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/com_accountkit_logout_confirm" />
+	</LinearLayout>
+</LinearLayout>

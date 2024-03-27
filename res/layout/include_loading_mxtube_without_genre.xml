@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/mxskin__mxtube_loading_bg__light" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mxSkin="background">
+	<View android:layout_width="fill_parent" android:layout_height="@dimen/dp203" style="?mxtubeSkeletonBgColor" />
+	<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseCircleImageView android:id="@id/circle0" android:layout_width="@dimen/dp36" android:layout_height="@dimen/dp36" android:src="@color/mxskin__mxtube_skeleton_background_color__light" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="src" />
+		<View android:id="@id/title0" android:layout_width="@dimen/dp264" android:layout_height="@dimen/dp14" android:layout_marginTop="@dimen/dp4" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toEndOf="@id/circle0" app:layout_constraintTop_toTopOf="parent" style="?mxtubeSkeletonBgColor" />
+		<View android:layout_width="@dimen/dp154" android:layout_height="@dimen/dp12" android:layout_marginTop="@dimen/dp6" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toEndOf="@id/circle0" app:layout_constraintTop_toBottomOf="@id/title0" style="?mxtubeSkeletonBgColor" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+	<View android:layout_width="fill_parent" android:layout_height="@dimen/dp203" android:layout_marginTop="@dimen/dp26" style="?mxtubeSkeletonBgColor" />
+	<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseCircleImageView android:id="@id/circle1" android:layout_width="@dimen/dp36" android:layout_height="@dimen/dp36" android:src="@color/mxskin__mxtube_skeleton_background_color__light" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="src" />
+		<View android:id="@id/title1" android:layout_width="@dimen/dp264" android:layout_height="@dimen/dp14" android:layout_marginTop="@dimen/dp4" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toEndOf="@id/circle1" app:layout_constraintTop_toTopOf="parent" style="?mxtubeSkeletonBgColor" />
+		<View android:layout_width="@dimen/dp154" android:layout_height="@dimen/dp12" android:layout_marginTop="@dimen/dp6" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toEndOf="@id/circle1" app:layout_constraintTop_toBottomOf="@id/title1" style="?mxtubeSkeletonBgColor" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+	<View android:layout_width="fill_parent" android:layout_height="@dimen/dp203" android:layout_marginTop="@dimen/dp26" style="?mxtubeSkeletonBgColor" />
+	<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseCircleImageView android:id="@id/circle2" android:layout_width="@dimen/dp36" android:layout_height="@dimen/dp36" android:src="@color/mxskin__mxtube_skeleton_background_color__light" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="src" />
+		<View android:id="@id/title2" android:layout_width="@dimen/dp264" android:layout_height="@dimen/dp14" android:layout_marginTop="@dimen/dp4" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toEndOf="@id/circle2" app:layout_constraintTop_toTopOf="parent" style="?mxtubeSkeletonBgColor" />
+		<View android:layout_width="@dimen/dp154" android:layout_height="@dimen/dp12" android:layout_marginTop="@dimen/dp6" android:layout_marginStart="@dimen/dp12" app:layout_constraintStart_toEndOf="@id/circle2" app:layout_constraintTop_toBottomOf="@id/title2" style="?mxtubeSkeletonBgColor" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

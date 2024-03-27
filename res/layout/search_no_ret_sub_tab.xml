@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.mxtech.videoplayer.ad.view.filters.FilterDownloadContent android:id="@id/filter_download_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" />
+	<com.mxtech.videoplayer.ad.view.filters.FilterTitleLayout android:id="@id/filter_title_layout" android:paddingTop="@dimen/dp6" android:paddingBottom="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" />
+	<include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/search_no_ret" />
+</LinearLayout>

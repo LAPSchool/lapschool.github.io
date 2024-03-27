@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="@dimen/dp127">
+	<androidx.cardview.widget.CardView android:id="@id/cover_image_container" android:layout_width="@dimen/album_playlist_img_width" android:layout_height="@dimen/album_playlist_img_height" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/card_view_radius_small" app:cardElevation="0.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/mxskin__shimmer_background_color__light" android:scaleType="centerCrop" app:mxSkin="src" />
+	</androidx.cardview.widget.CardView>
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textColor="@color/mxskin__505a78_85929c__light" android:ellipsize="end" android:id="@id/show_name_tv" android:layout_width="@dimen/album_playlist_img_width" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/muli_regular" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:mxSkin="textColor" />
+</androidx.constraintlayout.widget.ConstraintLayout>

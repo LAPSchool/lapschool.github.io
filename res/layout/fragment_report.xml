@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/bottomSheetLayout" android:background="@color/mxskin__video_more_bg__light" android:paddingBottom="@dimen/dp12" android:layout_width="fill_parent" android:layout_height="wrap_content" app:mxSkin="background">
+	<RelativeLayout android:id="@id/title_layout" android:paddingLeft="@dimen/dp16" android:paddingRight="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="@dimen/dp42">
+		<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@color/mxskin__report_title_color__light" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_video" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:mxSkin="textColor" style="@style/roboto_medium" />
+		<androidx.appcompat.widget.AppCompatImageView android:id="@id/close" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:src="@drawable/mxskin__ic_dialog_close__light" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp48_un_sw">
+		<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/dp48_un_sw" style="?mxToolbar" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+		<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/recycler_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<include android:id="@id/retry_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/app_bar_layout" layout="@layout/retry_layout_no_data_immersive" />
+		<View android:layout_gravity="bottom" android:background="@drawable/gradient_black_down_top" android:layout_width="fill_parent" android:layout_height="@dimen/dp72" />
+		<include android:id="@id/retry_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/app_bar_layout" layout="@layout/retry_layout_large_immersive" />
+	</FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

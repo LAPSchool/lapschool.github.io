@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.appcompat.widget.Toolbar android:id="@id/profile_toolbar" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" style="?mxToolbar">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<ImageView android:id="@id/user_profile" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:layout_centerVertical="true" android:contentDescription="@string/app_name_universal" />
+			<TextView android:textSize="@dimen/profile_login_name_text_size" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/user_name" android:layout_width="@dimen/dp120" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp6" android:layout_marginRight="@dimen/profile_login_name_margin" android:text="@string/sign_in_profile" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/user_profile" android:layout_centerVertical="true" android:lineSpacingExtra="0.0sp" style="?mxProfileLoginText" />
+			<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_coins_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp16" android:layout_alignParentRight="true">
+				<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_help" android:background="@drawable/circle_ripple_cover" android:layout_width="@dimen/dp42" android:layout_height="@dimen/dp42" android:layout_marginRight="4.0dip" android:src="@drawable/ic_help" android:layout_toLeftOf="@id/user_coins" android:layout_centerVertical="true" app:mxSkin="tint" app:tint="@color/mxskin__menu_color__light" />
+				<TextView android:textSize="@dimen/profile_login_name_text_size" android:textStyle="bold" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/user_coins" android:background="@drawable/profile_coins_text_bg" android:paddingLeft="@dimen/dp6" android:paddingTop="@dimen/dp5" android:paddingRight="@dimen/dp10" android:paddingBottom="@dimen/dp5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawableLeft="@drawable/coins_icon" android:drawablePadding="@dimen/dp6" android:lineSpacingExtra="0.0sp" style="?mxProfileLoginText" />
+			</LinearLayout>
+		</RelativeLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<androidx.core.widget.NestedScrollView android:id="@id/profile_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent">
+		<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<FrameLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="1.0px" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+			<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/online" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ad_container">
+				<TextView android:text="@string/profile_online" style="?mxProfileItemGroupText" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/online_layout_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/online">
+				<RelativeLayout android:id="@id/rl_content_language" android:background="?selectableItemBackground" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:gravity="center_vertical" android:id="@id/tv_content_language" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height" android:layout_marginLeft="@dimen/dp16_un_sw" android:text="@string/content_languages" android:drawableLeft="@drawable/ic_content_language_navigation__light" android:drawablePadding="32.0dip" app:layout_constraintLeft_toLeftOf="parent" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_download" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/my_download" android:drawableLeft="@drawable/ic_profile_download" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<com.mxtech.videoplayer.ad.view.list.CardRecyclerView android:orientation="horizontal" android:id="@id/cr_download" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/history" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/history" android:drawableLeft="@drawable/ic_profile_history" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<com.mxtech.videoplayer.ad.view.list.CardRecyclerView android:orientation="horizontal" android:id="@id/cr_history" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_watchlist" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/my_watchlist" android:drawableLeft="@drawable/ic_profile_playlist" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<com.mxtech.videoplayer.ad.view.list.CardRecyclerView android:orientation="horizontal" android:id="@id/cr_watchlist" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_subscription" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/subscription" android:drawableLeft="@drawable/ic_profile_subscribe" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_preferences" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/my_preferences" android:drawableLeft="@drawable/ic_profile_language" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mx_creator" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/become_an_mx_creator" android:drawableLeft="@drawable/ic_profile_creator" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/plugins_layout_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/online_layout_container">
+				<View android:id="@id/divider_upon_plugins" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" style="?mxProfileItemDivider" />
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/plugins" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_plugins" style="?mxProfileItemGroupText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_news" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:id="@id/news_text" android:text="@string/my_news" android:drawableLeft="@drawable/ic_profile_news" style="?mxProfileItemText" />
+					<TextView android:textSize="@dimen/sp10" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/news_new_tips" android:background="@drawable/bg_theme_new" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp16" android:layout_marginLeft="4.0dip" android:text="NEW" android:includeFontPadding="false" android:layout_toRightOf="@id/news_text" android:layout_centerVertical="true" android:fontFamily="@font/font_muli_semibold" android:letterSpacing="0.05" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_photo" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:id="@id/photo_text" android:text="@string/my_photo" android:drawableLeft="@drawable/ic_profile_photo" style="?mxProfileItemText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/whats_app_status" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/whatsapp_status" android:drawableLeft="@drawable/mxskin__ic_ad_whatsapp__dark" style="?mxProfileItemText" />
+				</RelativeLayout>
+			</LinearLayout>
+			<View android:id="@id/divider_upon_setting" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/plugins_layout_container" style="?mxProfileItemDivider" />
+			<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/settings" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/divider_upon_setting">
+				<TextView android:text="@string/profile_settings" style="?mxProfileItemGroupText" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/settings_layout_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/settings">
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/local_player_settings" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/profile_local_settings" android:drawableLeft="@drawable/ic_profile_local_setting" style="?mxProfileItemText" />
+					<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+				</RelativeLayout>
+				<LinearLayout android:orientation="vertical" android:id="@id/enable_data_saver_layout" android:background="?selectableItemBackground" android:paddingTop="@dimen/dp10" android:paddingBottom="@dimen/dp10" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/enable_data_saver_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+						<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:id="@id/enable_data_saver" android:text="@string/enable_data_saver_text" android:drawableLeft="@drawable/ic_bound" style="?mxProfileItemText" />
+						<TextView android:textSize="@dimen/sp10" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/enable_data_saver_new" android:background="@drawable/bg_theme_new" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp16" android:layout_marginLeft="4.0dip" android:text="NEW" android:includeFontPadding="false" android:layout_toRightOf="@id/enable_data_saver" android:layout_centerVertical="true" android:fontFamily="@font/font_muli_semibold" android:layout_toEndOf="@id/enable_data_saver" android:letterSpacing="0.05" />
+						<androidx.appcompat.widget.SwitchCompat android:id="@id/enable_data_saver_switch" android:background="@null" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:textOn="  " android:textOff="  " android:thumb="@drawable/switch_custom_thumb_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:track="@drawable/switch_custom_track_selector" android:switchMinWidth="@dimen/dp20" />
+					</RelativeLayout>
+					<TextView android:id="@id/enable_data_saver_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enable_data_saver_subtext" style="?mxProfileItemSubText" />
+				</LinearLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_theme" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:id="@id/dark_mode" android:text="@string/profile_dark_mode" android:drawableLeft="@drawable/ic_profile_dark_mode" style="?mxProfileItemText" />
+					<TextView android:textSize="10.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/dark_mode_new" android:background="@drawable/bg_theme_new" android:visibility="gone" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp16" android:layout_marginLeft="4.0dip" android:text="NEW" android:includeFontPadding="false" android:layout_toRightOf="@id/dark_mode" android:layout_centerVertical="true" android:fontFamily="@font/font_muli_semibold" android:layout_toEndOf="@id/dark_mode" android:letterSpacing="0.05" />
+					<androidx.appcompat.widget.SwitchCompat android:id="@id/theme_switch" android:background="@null" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:textOn="  " android:textOff="  " android:thumb="@drawable/switch_custom_thumb_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:track="@drawable/switch_custom_track_selector" android:switchMinWidth="@dimen/dp20" />
+				</RelativeLayout>
+			</LinearLayout>
+			<View android:id="@id/divider_upon_logout" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/settings_layout_container" style="?mxProfileItemDivider" />
+			<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/logout" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/divider_upon_logout">
+				<com.mxtech.videoplayer.ad.view.theme.ThemedProfileTextView android:text="@string/log_out" android:drawableLeft="@drawable/ic_profile_logout" style="?mxProfileItemText" />
+				<ImageView android:src="@drawable/ic_profile_arrow" style="@style/MXProfileItemArrow" />
+			</RelativeLayout>
+			<View android:id="@id/divider_upon_help" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/logout" style="?mxProfileItemDivider" />
+			<LinearLayout android:id="@id/rl_recy" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="@id/divider_upon_help">
+				<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			</LinearLayout>
+			<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/help" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/rl_recy">
+				<TextView android:text="@string/profile_help" style="?mxProfileItemGroupText" />
+				<androidx.appcompat.widget.AppCompatImageView android:id="@id/help_arrow" style="?mxProfileItemArrow" />
+			</RelativeLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/help_layout_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/help">
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/whats_new" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_help_whats_new" style="?mxProfileItemText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/features" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_help_features" style="?mxProfileItemText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/faq" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_help_faqs" style="?mxProfileItemText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/checkVersion" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_help_updates" style="?mxProfileItemText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/send_bug_report" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_help_report" style="?mxProfileItemText" />
+				</RelativeLayout>
+				<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/about" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/profile_item_height">
+					<TextView android:text="@string/profile_help_about" style="?mxProfileItemText" />
+				</RelativeLayout>
+			</LinearLayout>
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	</androidx.core.widget.NestedScrollView>
+</LinearLayout>

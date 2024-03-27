@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.mxtech.videoplayer.ad.view.PlayerParent xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/no_program_retry_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageView android:id="@id/future_live_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+	<ImageView android:id="@id/no_program_retry_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/black" android:scaleType="fitXY" android:alpha="0.6" />
+	<ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_111c" />
+</com.mxtech.videoplayer.ad.view.PlayerParent>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/cloud_file_recycler_view" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" />
+	<RelativeLayout android:id="@id/bottom_layout" android:background="@color/mxskin__cloud_move_bottom_bg__light" android:layout_width="fill_parent" android:layout_height="@dimen/dp48" android:layout_alignParentBottom="true" app:mxSkin="background">
+		<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_available" android:background="@color/color_f7faff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp24">
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp11" android:textStyle="normal" android:textColor="@color/item_language_name_color_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:text="@string/cloud_available" android:fontFamily="@font/font_regular" />
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp11" android:textStyle="normal" android:textColor="@color/download_finish_text_color" android:id="@id/tv_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp2" android:text="44.21GB" android:fontFamily="@font/font_muli_semibold" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_create" android:layout_width="@dimen/dp65" android:layout_height="@dimen/dp42" android:layout_marginLeft="@dimen/dp8" android:layout_marginTop="@dimen/dp3" android:layout_centerVertical="true">
+			<androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_create" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mxskin__icon_local_action_new_folder__light" app:mxSkin="src" />
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp10" android:textStyle="normal" android:textColor="@color/mxskin__cloud_move_bttom_text_color__light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_create" android:fontFamily="@font/font_regular" app:mxSkin="textColor" />
+		</LinearLayout>
+		<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:id="@id/move_or_copy" android:background="@drawable/download_bg_btn_blue" android:layout_width="@dimen/dp167" android:layout_height="@dimen/dp36" android:layout_marginTop="@dimen/dp6" android:layout_marginRight="@dimen/dp8" android:text="@string/cloud_move_here" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="@font/font_muli_semibold" />
+	</RelativeLayout>
+	<include android:id="@id/no_network_layout" android:visibility="gone" layout="@layout/search_no_network" />
+	<include android:id="@id/offline_view" android:visibility="gone" layout="@layout/view_download_offline" />
+</RelativeLayout>

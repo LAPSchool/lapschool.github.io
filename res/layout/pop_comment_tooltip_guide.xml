@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.mxtech.videoplayer.widget.bubble.BubbleLayout android:id="@id/bubbleLayout" android:layout_width="@dimen/dp240" android:layout_height="wrap_content" android:minHeight="@dimen/dp60" android:layout_centerHorizontal="true" app:bubbleColor="@color/mxskin__comment_tooltip__dark" app:bubbleRadius="@dimen/dp4" app:lookAt="top" app:lookLength="@dimen/dp_8" app:lookPosition="@dimen/dp112" app:lookPositionReverse="false" app:lookWidth="@dimen/dp16" app:shadowLayerColor="#4c000000" app:shadowRadius="@dimen/dp3" app:shadowX="0.0dip" app:shadowY="@dimen/dp1">
+		<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/comment_tooltip" android:fontFamily="@font/muli_regular" />
+	</com.mxtech.videoplayer.widget.bubble.BubbleLayout>
+</RelativeLayout>

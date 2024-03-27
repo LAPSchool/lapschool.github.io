@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:id="@id/fast_forward_controller" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fast_backward_layout_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<com.airbnb.lottie.LottieAnimationView android:id="@id/fast_backward_animation_view_1" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:scaleType="centerCrop" app:lottie_rawRes="@raw/fast_backward" app:lottie_repeatCount="-1" app:lottie_repeatMode="restart" />
+		<TextView android:textSize="@dimen/sp12" android:textColor="#ffffffff" android:id="@id/fast_back_time_tv_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp1" android:text="10 seconds" android:fontFamily="@font/font_muli" />
+	</LinearLayout>
+	<View android:layout_gravity="center" android:id="@id/center_view" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+	<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fast_forward_layout_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<com.airbnb.lottie.LottieAnimationView android:id="@id/fast_forward_animation_view_1" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:scaleType="centerCrop" app:lottie_rawRes="@raw/fast_forward" app:lottie_repeatCount="-1" app:lottie_repeatMode="restart" />
+		<TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/fast_forward_time_tv_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="10 seconds" android:fontFamily="@font/font_muli" />
+	</LinearLayout>
+</LinearLayout>

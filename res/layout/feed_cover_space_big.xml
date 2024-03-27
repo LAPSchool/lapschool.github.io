@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/item_root_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:layout_marginRight="@dimen/dp16">
+	<include layout="@layout/list_ad_big_cover_layout" />
+	<androidx.cardview.widget.CardView android:id="@id/feed_image_view_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_view_margin_Bottom" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/dp4" app:cardElevation="@dimen/card_view_elevation" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/feed_image_view" android:layout_width="fill_parent" android:layout_height="@dimen/feed_cover_big_image_height" android:scaleType="centerCrop" />
+		<include layout="@layout/tv_duration" />
+		<include layout="@layout/view_watch_count_big" />
+	</androidx.cardview.widget.CardView>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/publisher_image" android:layout_width="@dimen/dp40" android:layout_height="@dimen/dp40" android:layout_marginTop="@dimen/feed_cover_big_publisher_image_margin_top" android:layout_marginBottom="@dimen/dp10" android:src="@drawable/mxskin__avatar_default_publisher__light" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+		<TextView android:textSize="@dimen/feed_item_title_size" android:ellipsize="end" android:gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feed_cover_big_title_margin_left" android:layout_marginTop="@dimen/feed_cover_big_title_margin_top" android:layout_marginRight="@dimen/feed_cover_big_title_margin_right" android:maxLines="2" android:includeFontPadding="false" android:layout_toRightOf="@id/publisher_image" android:layout_alignParentTop="true" style="?mxOnlineTextTitleRegular" />
+		<TextView android:textSize="@dimen/feed_item_publisher_size" android:ellipsize="end" android:gravity="start" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp2" android:layout_marginBottom="@dimen/dp8" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@id/title" android:layout_alignLeft="@id/title" android:layout_alignRight="@id/title" style="?mxOnlineTextSubtitle" />
+	</RelativeLayout>
+</LinearLayout>

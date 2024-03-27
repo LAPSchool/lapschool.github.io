@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/sp9" android:textStyle="normal" android:textColor="#ffffffff" android:background="@drawable/tag_recommended_bg" android:paddingLeft="@dimen/dp4" android:paddingTop="@dimen/dp1" android:paddingRight="@dimen/dp4" android:paddingBottom="@dimen/dp1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag_recommended" android:fontFamily="@font/font_muli_semibold" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="@dimen/dp16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/icon_app_bar_back" app:titleTextAppearance="@style/Toolbar.TitleText" app:titleTextColor="@color/dark_primary" />
+	<net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/indicator" android:layout_width="0.0dip" android:layout_height="@dimen/dp48" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+	<View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" app:layout_constraintTop_toBottomOf="@id/indicator" />
+	<androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/indicator" />
+</androidx.constraintlayout.widget.ConstraintLayout>

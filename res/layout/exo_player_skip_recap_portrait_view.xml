@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/sp12" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tv_skip_recap_protrait" android:background="@drawable/skip_intro_text_bg" android:paddingLeft="@dimen/dp8" android:paddingRight="@dimen/dp8" android:layout_width="@dimen/dp84" android:layout_height="@dimen/dp31" android:minWidth="@dimen/dp84" android:minHeight="@dimen/dp31" android:text="@string/skip_recap" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<include layout="@layout/download_dialog" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

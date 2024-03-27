@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="Accidents">Acidentes</string>
+<string name="AreYouSureToExit">Tem certeza que deseja sair?</string>
+<string name="AvgSpeed">V Média</string>
+<string name="Brake">Freio</string>
+<string name="ChangeGearToP">Mudar de marcha para P</string>
+<string name="Channel">Canal</string>
+<string name="Comfort">Conforto</string>
+<string name="ContinueToViewAnAdAndCollectReward">Continue a visualizar um anúncio e coletar recompensas.</string>
+<string name="DriftLength">Deriva</string>
+<string name="DriverLevel">Motorista Nível</string>
+<string name="Durability">Durabilidade</string>
+<string name="Engine">Motor</string>
+<string name="Fuel">Combustível</string>
+<string name="Lose">Perder</string>
+<string name="MatchHasBeenCanceledBecauseOpponentHasOldVersion">"A versão do cliente oponente foi demasiado baixa e o jogo online foi
+cancelado."</string>
+<string name="MaxSpeed">V Máxima</string>
+<string name="MissionClear">Missão Sucesso</string>
+<string name="NotEnoughCoin">Não Coin o suficiente.</string>
+<string name="NotEnoughDriverLevel">Nível de driver não o</string>
+<string name="NotEnoughGold">Não o suficiente Gold.</string>
+<string name="OnlineMatch">Jogo Online</string>
+<string name="OpponentHasLeftTheGame">O oponente deixou o jogo.</string>
+<string name="OpponentWantsRematch">O oponente pediu uma revanche.</string>
+<string name="ParkAtTheYellowZone">Parque na zona amarela</string>
+<string name="PerfectTurn">Volta Perfeita</string>
+<string name="PleaseInputTheChannelNumber">Digite o número do canal.</string>
+<string name="PleaseInputTheSameNumberWithYourFriend">Por favor, digite um número entre 100~999 como você prometeu a seus amigos.</string>
+<string name="Price">Preço</string>
+<string name="PurchaseCanceled">A compra foi cancelada.</string>
+<string name="RequestingForRematch">O pedido de uma revanche está em andamento.</string>
+<string name="ThanksForPurchase">Obrigados por sua compra.</string>
+<string name="Tire">Pneu</string>
+<string name="ToUpgrade">suficiente para atualizar.</string>
+<string name="TravelDistance">Quilometragem</string>
+<string name="VsFriend">vs Amigo</string>
+<string name="Win">Ganhar</string>
+<string name="WouldYouLikeToBuyCar">Gostaria de comprar um carro?</string>
+<string name="WouldYouLikeToBuyCoin">Gostaria de comprar Coin?</string>
+<string name="WouldYouLikeToPurchaseGold">Gostaria de comprar Gold?</string>
+<string name="WouldYouLikeToRentCar">Gostaria de alugar carro?</string>
+<string name="WouldYouLikeToUpgrade">Gostaria de fazer o upgrade?</string>
+<string name="YouCanNotUpgradeAnymore">Você não pode atualizar mais.</string>
+<string name="YouFoundAChanceToCollectCoins1">Você encontrou uma chance de coletar</string>
+<string name="YouFoundAChanceToCollectCoins2">" moedas!"</string>
+<string name="YouFoundAChanceToCollectGold1">Você encontrou uma chance de coletar</string>
+<string name="YouFoundAChanceToCollectGold2">" de ouro!"</string>
+<string name="YouFoundFreeCoins1">Você encontrou</string>
+<string name="YouFoundFreeCoins2">" moedas grátis!"</string>
+<string name="YouFoundFreeGold1">Você encontrou</string>
+<string name="YouFoundFreeGold2">" ouro grátis!"</string>
+<string name="YouHaveOldVersionPleaseUpdateToTheLatestVersion">"A sua versão foi demasiado baixa e o jogo foi cancelado. Baixe, por
+favor, as mais novas atualizações para a última versão."</string>
+<string name="app_name">Dr. Driving</string>
+<string name="copy_toast_msg">Link copiado para a área de transferência</string>
+<string name="fallback_menu_item_copy_link">Copiar link</string>
+<string name="fallback_menu_item_open_in_browser">Abrir no navegador</string>
+<string name="fallback_menu_item_share_link">Compartilhar link</string>
+<string name="status_bar_notification_info_overflow">999+</string>
+</resources>

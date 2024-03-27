@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ViewStub android:id="@id/youtube_web_view_stub" android:layout="@layout/search_youtube" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<include android:id="@id/no_ret_layout" android:background="@color/mxskin__bg_not_ret__light" android:visibility="gone" app:mxSkin="background" layout="@layout/search_no_ret" />
+	<include android:id="@id/no_network_layout" android:visibility="gone" layout="@layout/search_no_network" />
+	<include android:id="@id/no_ret_recommend_layout" android:visibility="gone" layout="@layout/search_no_ret_recommend" />
+	<include android:id="@id/error_layout" android:visibility="gone" layout="@layout/search_error" />
+	<ProgressBar android:layout_gravity="center" android:id="@id/loading_layout" android:visibility="gone" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" android:indeterminateDrawable="@drawable/loading_progress_bar" android:indeterminateDuration="2000" />
+</FrameLayout>

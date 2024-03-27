@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+		<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/app_bar_height_56_un_sw" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" style="?mxToolbar">
+			<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/dp56">
+				<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp18" android:textColor="@color/mxskin__35344c_dadde4__light" android:ellipsize="end" android:id="@id/channel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/font_muli_semibold" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="textColor" />
+				<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textColor="@color/mxskin__96a2ba_85929c__light" android:id="@id/channel_subscriber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/font_muli" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="textColor" />
+			</LinearLayout>
+		</androidx.appcompat.widget.Toolbar>
+		<include layout="@layout/toolbar_split_line_layout" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<FrameLayout android:id="@id/assist_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/app_bar" />
+	<ViewStub android:id="@id/stub_layout_profile_tip" android:layout="@layout/layout_cloud_profile_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

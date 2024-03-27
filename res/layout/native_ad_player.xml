@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+	<FrameLayout android:id="@id/native_ad_main_bg" android:layout_width="@dimen/native_ad_player_width" android:layout_height="@dimen/native_ad_player_height">
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<ImageView android:id="@id/native_ad_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+		</LinearLayout>
+		<FrameLayout android:layout_gravity="end|center|top" android:id="@id/native_ad_choice_container" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" />
+		<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center|top" android:id="@id/ad_tag_view" android:layout_width="23.0dip" android:layout_height="15.0dip" android:layout_marginTop="4.0dip" android:layout_marginEnd="4.0dip" app:mxSkin="src" app:srcCompat="@drawable/ic_ad_tag" />
+	</FrameLayout>
+	<RelativeLayout android:id="@id/native_ad_bottom" android:background="@color/list_ad_bg_color_black" android:layout_width="@dimen/native_ad_player_width" android:layout_height="60.0dip" android:layout_below="@id/native_ad_main_bg">
+		<ImageView android:id="@id/native_ad_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/native_ad_action_button" android:layout_toRightOf="@id/native_ad_icon" android:layout_centerVertical="true">
+			<TextView android:textSize="16.0sp" android:textColor="@color/native_ad_title" android:ellipsize="end" android:id="@id/native_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+			<TextView android:textSize="14.0sp" android:textColor="@color/mxskin__native_ad_sub_title__light" android:ellipsize="end" android:id="@id/native_ad_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+		</LinearLayout>
+		<TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/native_ad_action_button" android:background="@drawable/native_ad_button" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+	</RelativeLayout>
+</RelativeLayout>

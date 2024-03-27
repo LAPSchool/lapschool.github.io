@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_white_rec_r6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16">
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@color/dark_primary" android:gravity="center" android:id="@id/tv_delete" android:layout_width="fill_parent" android:layout_height="@dimen/dp52" android:text="@string/chat_msg_delete" android:fontFamily="@font/font_bold" />
+	<View android:background="#19171c10" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" />
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@color/dark_primary" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/dp52" android:text="@string/cancel" android:fontFamily="@font/font_bold" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="@dimen/sp14" android:textStyle="normal" android:textColor="@color/mxskin__delete_dialog_content__light" android:id="@id/tv_content" android:paddingTop="@dimen/dp4" android:paddingBottom="@dimen/dp4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/muli_regular" app:mxSkin="textColor" />

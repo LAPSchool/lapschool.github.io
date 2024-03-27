@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/root_view" android:background="@drawable/mxskin__bg_cloud_path_dialog__light" android:layout_width="fill_parent" android:layout_height="wrap_content" app:mxSkin="background">
+	<TextView android:textSize="@dimen/sp13" android:textColor="@color/filter_list_title_normal_color_dark" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:layout_marginBottom="@dimen/dp16" android:maxLines="2" android:layout_alignParentTop="true" android:fontFamily="@font/muli_semibold" android:layout_marginStart="@dimen/dp20" android:layout_marginEnd="@dimen/dp20" />
+	<LinearLayout android:orientation="vertical" android:id="@id/item_option_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+		<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cancelShare" android:paddingLeft="@dimen/dp16" android:paddingRight="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="@dimen/dp60">
+			<androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_cancel" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:src="@drawable/mxskin__cloud_share_cancel_sharing__light" app:mxSkin="src" />
+			<TextView android:textSize="@dimen/sp16" android:textColor="@color/mxskin__505a78_dadde4__light" android:id="@id/text_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:text="@string/cloud_cancel_sharing" app:mxSkin="textColor" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/copyLink" android:paddingLeft="@dimen/dp16" android:paddingRight="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="@dimen/dp60">
+			<androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_link" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:src="@drawable/mxskin__cloud_share_copy_link__light" app:mxSkin="src" />
+			<TextView android:textSize="@dimen/sp16" android:textColor="@color/mxskin__505a78_dadde4__light" android:id="@id/text_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp16" android:text="@string/share_more_copy_link" app:mxSkin="textColor" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

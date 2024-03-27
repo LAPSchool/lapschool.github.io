@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/mx_svod_error_screen_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.appcompat.widget.Toolbar android:gravity="top" android:id="@id/mx_svod_error_screen_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:navigationIcon="@drawable/ic_back" />
+	<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_13e7" />
+		<com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/mx_svod_error_screen_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/mx_svod_uh_oh" android:fontFamily="@font/font_muli_bold" />
+		<com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/mx_svod_error_screen_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/mx_svod_something_went_wrong" android:fontFamily="@font/muli_regular" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+		<FrameLayout android:layout_gravity="center" android:background="@drawable/mx_svod_try_again_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+			<com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/mx_svod_error_screen_cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/mx_svod_try_again" android:fontFamily="@font/font_muli_bold" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+		</FrameLayout>
+	</androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

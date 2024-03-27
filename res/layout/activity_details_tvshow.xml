@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?mxBackgroundColor">
+	<com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_tool_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
+			<include layout="@layout/include_tvshow_details_header" />
+			<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:layout_collapseMode="pin" app:popupTheme="@style/OnlineToolBarTheme" style="?mxToolbar" />
+		</com.google.android.material.appbar.CollapsingToolbarLayout>
+	</com.google.android.material.appbar.AppBarLayout>
+	<FrameLayout android:id="@id/detail_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/detail_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

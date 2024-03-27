@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="center" android:id="@id/exo_content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<View android:id="@id/exo_shutter" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<ImageView android:id="@id/exo_artwork" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+		<com.google.android.exoplayer2.ui.SubtitleView android:id="@id/exo_subtitles" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+	<FrameLayout android:id="@id/exo_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<View android:id="@id/retry_back_view" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</FrameLayout>
+	<com.mxtech.videoplayer.ad.online.player.view.ExoPlayerControlView android:id="@id/exo_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" app:controller_layout_id="@layout/exo_playback_live_control_view_vod" />
+	<ViewStub android:layout_gravity="end|bottom|center" android:id="@id/view_stub_top_holder" android:visibility="gone" android:layout="@layout/view_poll_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/tv_skip_ad" android:background="@drawable/skip_ad_back_ground_layer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/skip_ad_height" android:layout_marginBottom="@dimen/dp24" android:text="@string/skip_ad_text" android:textAllCaps="true" android:paddingStart="@dimen/dp24" android:paddingEnd="@dimen/dp24" android:layout_marginEnd="@dimen/dp24" />
+	<include layout="@layout/video_bottom_ad_landscape_layout" />
+	<include layout="@layout/layout_carousel_land_ad" />
+	<include layout="@layout/gesture_guide_layout" />
+</merge>

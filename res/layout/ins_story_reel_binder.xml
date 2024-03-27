@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/link_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_ins_story_reel_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

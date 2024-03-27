@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/transparent" android:focusable="false" android:layout_width="@dimen/dp50" android:layout_height="@dimen/screen_subnavibar_height" android:layout_marginLeft="@dimen/dp8" />

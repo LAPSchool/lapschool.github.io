@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<androidx.recyclerview.widget.RecyclerView android:id="@id/file_list_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	<ViewStub android:id="@id/empty_layout" android:layout="@layout/file_list_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp16" android:textColor="#ff616d91" android:gravity="center" android:id="@id/network_disconnect" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/smb_error_disconnect" />
+</FrameLayout>

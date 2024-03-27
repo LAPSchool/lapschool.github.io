@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="@dimen/dp28" android:layout_height="@dimen/dp22">
+	<ImageView android:id="@id/pk_rank_item_ring" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20" android:src="@drawable/bg_pk_rank1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+	<com.google.android.material.imageview.ShapeableImageView android:id="@id/pk_rank_item_avatar" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="0.5dip" android:src="@drawable/ic_avatar" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/pk_rank_item_ring" app:layout_constraintEnd_toEndOf="@id/pk_rank_item_ring" app:layout_constraintStart_toStartOf="@id/pk_rank_item_ring" app:layout_constraintTop_toTopOf="@id/pk_rank_item_ring" app:shapeAppearance="@style/circleImageStyle" />
+	<ImageView android:id="@id/pk_rank_item_num_right" android:layout_width="@dimen/dp10" android:layout_height="@dimen/dp12" android:src="@drawable/ic_pk_rank1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+	<ImageView android:id="@id/pk_rank_item_num_left" android:layout_width="@dimen/dp10" android:layout_height="@dimen/dp12" android:src="@drawable/ic_pk_rank1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</merge>

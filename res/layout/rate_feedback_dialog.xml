@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/mxskin__rate_dialog_bg__light" android:layout_width="wrap_content" android:layout_height="wrap_content" app:mxSkin="background">
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp20" android:textColor="@color/mxskin__feed_back_title_color__light" android:ellipsize="end" android:id="@id/title" android:layout_width="@dimen/dp232" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp25" android:layout_marginRight="@dimen/dp20" android:text="@string/rate_feedback_title" android:maxLines="2" app:mxSkin="textColor" style="@style/roboto_medium" />
+	<EditText android:textSize="@dimen/sp14" android:gravity="center|left|top" android:id="@id/content" android:padding="@dimen/dp6" android:layout_width="@dimen/dp232" android:layout_height="@dimen/dp103" android:layout_marginLeft="@dimen/dp25" android:layout_marginTop="@dimen/dp13" android:layout_marginRight="@dimen/dp25" android:hint="@string/rate_feedback_hint" android:selectAllOnFocus="true" style="?mxFeedBackContent" />
+	<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/comment_top" android:layout_width="@dimen/dp232" android:layout_height="@dimen/dp52" android:layout_marginLeft="@dimen/dp24" android:layout_marginRight="@dimen/dp24">
+		<View android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+		<LinearLayout android:id="@id/cancel_layout" android:paddingLeft="@dimen/dp8" android:paddingRight="@dimen/dp8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/mxskin__feed_back_cancel_color__light" android:gravity="center_vertical" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="@dimen/dp36" android:text="@string/rate_feedback_cancel" app:mxSkin="textColor" />
+		</LinearLayout>
+		<LinearLayout android:id="@id/confirm_layout" android:paddingLeft="@dimen/dp8" android:paddingRight="@dimen/dp8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="@dimen/dp8">
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/mxskin__feed_back_submit_color__light" android:gravity="center_vertical" android:id="@id/confirm" android:layout_width="wrap_content" android:layout_height="@dimen/dp36" android:text="@string/rate_submit" app:mxSkin="textColor" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

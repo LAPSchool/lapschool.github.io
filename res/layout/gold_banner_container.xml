@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp341">
+	<com.mxtech.videoplayer.ad.view.convenientbanner.GoldConvenientBanner android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="@dimen/dp203" app:canLoop="true" app:layout_constraintTop_toTopOf="parent" />
+	<com.mxtech.videoplayer.ad.online.mxgold.view.GoldBannerIndicator android:id="@id/indicator_gold_banner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp20" android:elevation="0.100000024dip" app:layout_constraintBottom_toBottomOf="@id/banner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+	<View android:id="@id/banner_bottom_back" android:background="@drawable/mantle_gold_banner_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/dp50" android:elevation="0.00999999dip" app:layout_constraintBottom_toBottomOf="@id/banner" />
+	<com.mxtech.videoplayer.ad.online.mxgold.view.GoldInfoCardView android:id="@id/gold_info_card" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp142" android:layout_marginTop="@dimen/dp198" android:elevation="0.20000005dip" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

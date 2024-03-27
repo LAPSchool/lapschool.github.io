@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg_round_corner_4dp_transparent_border_66b8becd" android:layout_width="fill_parent" android:layout_height="@dimen/dp104" android:layout_marginTop="@dimen/dp8" android:layout_marginEnd="@dimen/dp8">
+	<androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/dp40" android:layout_height="@dimen/dp40" android:src="@drawable/mxskin__ic_add_image_mx_channel__light" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

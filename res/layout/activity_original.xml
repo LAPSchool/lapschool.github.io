@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include android:id="@id/core_layout" android:visibility="gone" layout="@layout/original_core" />
+	<include android:id="@id/content_unavailable_layout" android:visibility="gone" layout="@layout/original_content_unavailable" />
+	<include android:id="@id/no_network_layout" android:visibility="gone" layout="@layout/original_no_network" />
+	<androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_shadow_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.19" />
+	<View android:id="@id/top_shadow_view" android:background="@drawable/gradient_black_top_down" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/top_shadow_guideline" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+	<FrameLayout android:id="@id/back_img_layout" android:layout_width="@dimen/dp40" android:layout_height="@dimen/dp40" android:layout_marginLeft="@dimen/dp10" android:layout_marginTop="@dimen/dp30" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+		<ImageView android:layout_gravity="center" android:id="@id/back_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_d85" />
+		<View android:id="@id/ripple_view" android:background="@drawable/circle_ripple_cover" android:layout_width="@dimen/dp40" android:layout_height="@dimen/dp40" />
+	</FrameLayout>
+	<ImageView android:id="@id/title_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" android:src="@drawable/mx_originals" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+	<Button android:textColor="#ff616d91" android:gravity="center" android:id="@id/content_illegal" android:background="@android:color/black" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/illegal_country" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

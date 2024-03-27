@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="H,104:156" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+		<androidx.cardview.widget.CardView android:id="@id/skin_item_card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dp4" app:cardBackgroundColor="@color/mxskin__coins_redemption_img_bg__light" app:cardCornerRadius="@dimen/dp6" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:mxSkin="cardBackgroundColor">
+			<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/skin_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/skin_item_btn" android:background="@color/black_a70" android:layout_width="fill_parent" android:layout_height="@dimen/dp44" android:layout_marginLeft="@dimen/dp12" android:layout_marginRight="@dimen/dp12" android:text="@string/theme_get_theme" android:fontFamily="@font/font_muli_bold" />
+		</androidx.cardview.widget.CardView>
+		<include android:layout_gravity="end|center|top" android:id="@id/skin_item_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/theme_list_selected_layout" />
+	</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

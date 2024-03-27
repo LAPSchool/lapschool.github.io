@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.mxtech.widget.ShadowToolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:theme="?actionBarTheme" android:id="@id/toolbar" android:background="?actionModeBackground" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" app:popupTheme="?actionBarPopupTheme" style="?actionModeStyle" />

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.mxtech.videoplayer.ad.view.PlayerParent xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/player_parent" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.mxtech.videoplayer.ad.online.player.view.ExoPlayerView android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:player_layout_id="@layout/exo_simple_player_view_download" />
+	<include layout="@layout/video_bottom_ad_landscape_layout" />
+	<include layout="@layout/layout_carousel_land_ad" />
+	<ViewStub android:id="@id/stub_layout_rating" android:layout="@layout/layout_rating_view_stub" android:layout_width="fill_parent" android:layout_height="@dimen/dp70" />
+	<FrameLayout android:id="@id/stub_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<com.mxtech.videoplayer.ad.online.skipintro.view.SkipAndPlayNextLayout android:layout_gravity="bottom" android:id="@id/download_skip_play_next_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dp140" />
+	</FrameLayout>
+	<ImageView android:id="@id/loading_iv" android:background="#ff2f2f2f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@string/app_name_universal" />
+	<ImageView android:layout_gravity="center" android:id="@id/loading_play_iv" android:visibility="gone" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" android:src="@drawable/ic_default_play" />
+	<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:textSize="@dimen/sp14" android:textColor="@color/online_speed_title_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/drm_voot_network_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp10" android:text="@string/drm_voot_open_network_title" android:lineSpacingExtra="2.0sp" android:paddingStart="@dimen/dp12" android:paddingEnd="@dimen/dp12" style="@style/MxText.font_muli_semibold" />
+		<Button android:textSize="@dimen/sp14" android:textColor="#ff3c8cf0" android:layout_gravity="center" android:id="@id/retry_button" android:background="@drawable/exo_player_retry_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dp36" android:text="@string/player_retry" />
+	</LinearLayout>
+	<com.mxtech.videoplayer.ad.view.imageview.AutoRotateView android:layout_gravity="center" android:id="@id/buffering" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_loading" />
+	<include layout="@layout/exo_gesture_portrait_layout" />
+	<include layout="@layout/layout_fast_forward" />
+	<ViewStub android:id="@id/landscape_panel_view_stub" android:layout="@layout/layout_landscape_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<ViewStub android:id="@id/view_stub_unavailable" android:layout="@layout/view_resource_offline" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<ViewStub android:id="@id/stubAdPlayer" android:layout="@layout/layout_video_ad_player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<FrameLayout android:layout_gravity="center" android:id="@id/exo_pause_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<RelativeLayout android:gravity="center_vertical" android:id="@id/went_wrong_layout" android:background="#88000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:textSize="@dimen/sp16" android:textColor="#ffffffff" android:id="@id/wrong_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Something went wrong:(" android:layout_centerHorizontal="true" android:fontFamily="@font/muli_semibold" />
+		<Button android:textSize="@dimen/sp14" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/continue_btn" android:background="@drawable/bg_black_white_frame_rectangle_corner_4dp" android:paddingLeft="@dimen/dp12" android:paddingRight="@dimen/dp12" android:layout_width="wrap_content" android:layout_height="@dimen/dp34" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp20" android:layout_marginRight="@dimen/dp20" android:minWidth="@dimen/dp250" android:text="@string/continue_playing_online" android:maxLines="1" android:layout_below="@id/wrong_text" android:layout_centerHorizontal="true" />
+		<Button android:textSize="@dimen/sp14" android:textColor="#ffffffff" android:id="@id/download_again_btn" android:background="@drawable/bg_black_white_frame_rectangle_corner_4dp" android:layout_width="@dimen/dp250" android:layout_height="@dimen/dp34" android:layout_marginTop="@dimen/dp12" android:text="@string/download_again" android:layout_below="@id/continue_btn" android:layout_alignLeft="@id/continue_btn" android:layout_alignRight="@id/continue_btn" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<include layout="@layout/view_water_mark" />
+</com.mxtech.videoplayer.ad.view.PlayerParent>

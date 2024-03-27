@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.mxtech.videoplayer.ad.online.ad.pop.AdPlayerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/videoPlayerWithAdPlayback" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TextureView android:id="@id/ad_player_surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware" />
+	<com.mxtech.videoplayer.ad.online.player.view.ExoPlayerAdControlView android:id="@id/ad_player_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ad_controller_layout_id="@layout/layout_ad_controller_view" />
+	<com.mxtech.videoplayer.ad.view.imageview.AutoRotateView android:layout_gravity="center" android:id="@id/ad_buffering" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_loading" />
+</com.mxtech.videoplayer.ad.online.ad.pop.AdPlayerView>

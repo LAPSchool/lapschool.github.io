@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:background="@drawable/bg_round_corner_4dp_gray_trans" android:layout_width="wrap_content" android:layout_height="@dimen/dp30">
+	<FrameLayout android:id="@id/fl_close" android:layout_width="wrap_content" android:layout_height="fill_parent">
+		<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dp18" android:layout_height="@dimen/dp18" android:src="@drawable/ic_close" android:layout_marginStart="@dimen/dp8" android:layout_marginEnd="@dimen/dp4" />
+	</FrameLayout>
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textColor="@color/white" android:id="@id/tv_show_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/episode_end_name_max_width" android:singleLine="true" android:fontFamily="@font/muli_regular" />
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textColor="@color/mxskin__placeholder__light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="up next in" android:fontFamily="@font/muli_regular" android:layout_marginStart="@dimen/dp4" />
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textColor="@color/white" android:id="@id/tv_count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:fontFamily="@font/muli_bold" android:layout_marginStart="@dimen/dp3" />
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp12" android:textStyle="normal" android:textColor="@color/color_3c8cf0" android:gravity="center" android:id="@id/tv_play_now" android:layout_width="wrap_content" android:layout_height="@dimen/dp24" android:text="PLAY NOW" android:fontFamily="@font/muli_semibold" android:paddingStart="@dimen/dp4" android:paddingEnd="@dimen/dp4" android:layout_marginStart="@dimen/dp2" android:layout_marginEnd="@dimen/dp8" android:letterSpacing="0.08" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="@dimen/dp24" android:paddingRight="@dimen/dp24" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<View android:id="@id/place_holder" android:layout_width="@dimen/dp34" android:layout_height="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+	<TextView android:textSize="@dimen/sp18" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:lineSpacingExtra="8.0sp" android:fontFamily="@font/font_muli" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/place_holder" app:layout_constraintTop_toTopOf="parent" />
+	<RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title">
+		<com.mxtech.widget.ColorPicker2 android:id="@id/picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:bar_orientation_horizontal="false" app:color_pointer_halo_radius="19.0dip" app:color_pointer_radius="15.0dip" />
+		<com.mxtech.widget.SaturationBar2 android:id="@id/saturation_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/picker" android:layout_centerVertical="true" app:bar_orientation_horizontal="false" app:bar_pointer_halo_radius="17.0dip" />
+		<com.mxtech.widget.ValueBar2 android:id="@id/value_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/saturation_bar" android:layout_centerVertical="true" app:bar_orientation_horizontal="false" app:bar_pointer_halo_radius="17.0dip" />
+		<com.mxtech.widget.OpacityBar2 android:id="@id/opacity_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/value_bar" android:layout_centerVertical="true" app:bar_orientation_horizontal="false" app:bar_pointer_halo_radius="17.0dip" />
+		<TableLayout android:id="@id/tab_horz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_toRightOf="@id/opacity_bar" android:layout_centerVertical="true">
+			<TableRow>
+				<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="@dimen/dp50" android:text="R: " android:fontFamily="@font/font_muli" />
+				<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/red_horz" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="@dimen/dp50" android:text="G: " />
+				<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/green_horz" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="@dimen/dp50" android:text="B: " />
+				<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/blue_horz" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:id="@id/alpha_label_horz" android:layout_width="wrap_content" android:text="A: " />
+				<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/alpha_horz" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			</TableRow>
+		</TableLayout>
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tab_vert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:layout_below="@id/picker">
+			<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R: " />
+			<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/red_vert" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  G: " />
+			<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/green_vert" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  B: " />
+			<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/blue_vert" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+			<TextView android:textSize="@dimen/dp13" android:textStyle="normal" android:textColor="@color/white" android:id="@id/alpha_label_vert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  A: " />
+			<EditText android:textSize="@dimen/sp14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/alpha_vert" android:fontFamily="@font/font_muli" style="@style/ColorPickerInputTextStyle" />
+		</LinearLayout>
+	</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

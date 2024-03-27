@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.mxtech.videoplayer.ad.online.features.watchlist.RatioCardView xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/cover_image_container" android:layout_width="@dimen/dp80" android:layout_height="@dimen/dp120" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/card_view_radius_slide" app:cardElevation="0.0dip">
+	<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+	<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+	<ViewStub android:id="@id/vs_auto_play_view" android:layout="@layout/include_auto_play_view" android:inflatedId="@id/auto_play_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<include layout="@layout/tv_autoplay_title_watchlist" />
+	<include layout="@layout/view_watch_count_small" />
+</com.mxtech.videoplayer.ad.online.features.watchlist.RatioCardView>

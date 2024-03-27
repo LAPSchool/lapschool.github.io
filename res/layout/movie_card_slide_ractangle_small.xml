@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/cover_image_container" android:layout_width="@dimen/cover_slide_small_width" android:layout_height="@dimen/cover_slide_small_height" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/card_view_radius_slide" app:cardElevation="@dimen/card_view_elevation_slide" app:cardPreventCornerOverlap="false" app:layout_constraintBottom_toTopOf="@id/title" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+	<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+	<ViewStub android:layout_gravity="bottom" android:id="@id/progress_stub" android:layout="@layout/include_feed_slide_progress_bar" android:inflatedId="@id/progress" android:layout_width="fill_parent" android:layout_height="@dimen/video_progress_height" />
+	<include layout="@layout/view_watch_count_small" />
+</androidx.cardview.widget.CardView>

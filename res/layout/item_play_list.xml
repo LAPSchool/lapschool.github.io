@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="@dimen/dp160" android:layout_height="@dimen/dp90" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/card_view_radius_slide" app:cardElevation="0.0dip">
+	<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:mxSkin="src" />
+</androidx.cardview.widget.CardView>

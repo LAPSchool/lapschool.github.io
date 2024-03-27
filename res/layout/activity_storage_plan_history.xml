@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/mxskin__color_f5f9fe_16202b__light" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mxSkin="background">
+	<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent" style="?mxToolbar" />
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+		<com.mxtech.videoplayer.ad.view.list.MXRecyclerView android:id="@id/rv_history_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:loadMoreEnable="true" app:noMoreViewEnable="true" app:refreshEnable="true" />
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	<include android:id="@id/layout_content_unavailable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" layout="@layout/layout_cloud_error" />
+</androidx.constraintlayout.widget.ConstraintLayout>

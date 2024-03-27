@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layout_cast_add_queue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp30">
+			<androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_play" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:src="@drawable/mxskin__ic_cast_queue_play__dark" />
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:id="@id/icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:text="@string/cast_play" android:fontFamily="@font/font_muli_semibold" app:mxSkin="textColor" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp80" android:layout_toRightOf="@id/play">
+			<androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_add_queue" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" android:src="@drawable/mxskin__ic_cast_add_to_queue__dark" app:tint="@color/white" />
+			<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:id="@id/text_add_queue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:text="@string/cast_add_to_queue" android:fontFamily="@font/font_muli_semibold" app:mxSkin="textColor" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

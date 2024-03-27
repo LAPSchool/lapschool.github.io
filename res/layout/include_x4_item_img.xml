@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/card_view" android:layout_width="@dimen/card_item_slide_publisher_icon_size" android:layout_height="@dimen/card_item_slide_publisher_icon_size" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="@dimen/card_item_slide_publisher_icon_corner_radius" app:cardElevation="0.0dip">
+		<com.mxtech.videoplayer.ad.view.AutoReleaseImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/mxskin__avatar_default_publisher__light" android:scaleType="fitXY" />
+	</androidx.cardview.widget.CardView>
+</merge>

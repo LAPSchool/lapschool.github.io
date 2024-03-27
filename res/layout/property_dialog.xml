@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp16" android:textStyle="normal" android:textColor="@color/mxskin__35344c_dadde4__light" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp24" android:layout_marginTop="@dimen/dp20" android:layout_marginRight="@dimen/dp24" android:maxLines="1" android:lineSpacingExtra="4.0sp" android:fontFamily="@font/font_muli_semibold" app:mxSkin="textColor" />
+	<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp24" android:layout_marginTop="@dimen/dp20" android:layout_marginRight="@dimen/dp24" android:layout_weight="1.0">
+		<ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constrainedHeight="true" app:layout_constraintHeight_max="@dimen/dp330">
+			<TableLayout android:id="@id/layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shrinkColumns="1" />
+		</ScrollView>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+	<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp16" android:textStyle="normal" android:textColor="@color/_3c8cf0" android:gravity="center_horizontal" android:layout_gravity="end" android:id="@id/tv_ok" android:padding="@dimen/dp10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp20" android:layout_marginBottom="@dimen/dp12" android:text="@string/okay_small" android:lineSpacingExtra="4.0sp" android:fontFamily="@font/font_muli_extrabold" />
+</androidx.appcompat.widget.LinearLayoutCompat>

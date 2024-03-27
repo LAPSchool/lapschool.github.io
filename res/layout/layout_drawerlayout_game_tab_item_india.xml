@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_drawer_games" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dp48">
+	<androidx.appcompat.widget.AppCompatImageView android:gravity="center_vertical" android:id="@id/drawer_item_img" android:layout_width="@dimen/dp20_un_sw" android:layout_height="@dimen/dp20_un_sw" android:text="@string/drawer_games" android:layout_marginStart="@dimen/dp12" />
+	<androidx.appcompat.widget.AppCompatTextView android:id="@id/drawer_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp12" style="?mxProfileItemText" />
+</LinearLayout>

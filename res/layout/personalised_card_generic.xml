@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.mxtech.widget.compat.MXLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:clipChildren="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<include layout="@layout/list_card_ad_layout_divider" />
+	<include android:id="@id/title_view" layout="@layout/personalised_card_title" />
+	<FrameLayout android:orientation="vertical" android:clipChildren="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<include android:id="@id/personalised_card_empty_state_view" android:visibility="gone" layout="@layout/personalised_card_empty_state" />
+		<include android:id="@id/personalised_card_loaded_state_view" android:visibility="gone" layout="@layout/card_container_only_recycler_view" />
+	</FrameLayout>
+</com.mxtech.widget.compat.MXLinearLayout>
